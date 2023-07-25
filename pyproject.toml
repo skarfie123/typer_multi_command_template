@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "typer-multi-command-template"
+version = "0.1.0"
+description = ""
+authors = ["skarfie123 <rahulpai@rocketmail.com>"]
+readme = "README.md"
+packages = [{include = "typer_multi_command_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
